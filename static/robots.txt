@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /$
+Allow: /blog
+Allow: /blog/
+Disallow: /dashboard
+Disallow: /admin
+Disallow: /orders/
+Disallow: /login
+
+Sitemap: https://karja.id/sitemap.xml

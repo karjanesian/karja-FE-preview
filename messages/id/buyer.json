@@ -1,0 +1,329 @@
+{
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+
+	"bu_sh_close": "Tutup",
+	"bu_sh_free": "Gratis",
+	"bu_sh_google_meet": "Google Meet",
+	"bu_sh_download_started": "Download dimulai.",
+
+	"bu_pdp_back_to_store": "Kembali ke toko",
+	"bu_pdp_breadcrumb": "Toko",
+	"bu_pdp_share": "Bagikan",
+	"bu_pdp_share_copied": "Link tersalin",
+	"bu_pdp_share_title": "Copy link produk",
+	"bu_pdp_image_alt": "{title} - Gambar {index}",
+	"bu_pdp_category_fallback": "Karya Karja",
+	"bu_pdp_prev_image": "Gambar sebelumnya",
+	"bu_pdp_next_image": "Gambar selanjutnya",
+	"bu_pdp_expand_image": "Perbesar gambar",
+	"bu_pdp_thumbnail_alt": "Thumbnail {index}",
+	"bu_pdp_close_lightbox": "Tutup gambar",
+	"bu_pdp_sec_target": "Cocok buat",
+	"bu_pdp_sec_problem": "Masalah yang dibantu",
+	"bu_pdp_sec_deliverables": "Yang kamu dapat",
+	"bu_pdp_spec_filename": "Nama file",
+	"bu_pdp_spec_filename_fallback": "File Materi Digital",
+	"bu_pdp_spec_filesize": "Ukuran & format",
+	"bu_pdp_spec_filesize_fallback": "PDF / File Siap Pakai",
+	"bu_pdp_spec_duration": "Durasi",
+	"bu_pdp_minutes": [
+		{
+			"declarations": ["input count", "local countPlural = count: plural"],
+			"selectors": ["countPlural"],
+			"match": {
+				"countPlural=one": "{count} menit",
+				"countPlural=other": "{count} menit"
+			}
+		}
+	],
+	"bu_pdp_spec_platform": "Platform",
+	"bu_pdp_spec_timeline": "Estimasi selesai",
+	"bu_pdp_business_days": [
+		{
+			"declarations": ["input count", "local countPlural = count: plural"],
+			"selectors": ["countPlural"],
+			"match": {
+				"countPlural=one": "{count} hari kerja",
+				"countPlural=other": "{count} hari kerja"
+			}
+		}
+	],
+	"bu_pdp_dash": "-",
+	"bu_pdp_spec_revisions": "Revisi",
+	"bu_pdp_revisions_value": [
+		{
+			"declarations": ["input count", "local countPlural = count: plural"],
+			"selectors": ["countPlural"],
+			"match": {
+				"countPlural=one": "{count}x revisi",
+				"countPlural=other": "{count}x revisi"
+			}
+		}
+	],
+	"bu_pdp_sec_how": "Cara kerjanya",
+	"bu_pdp_sec_access": "Cara akses",
+	"bu_pdp_access_digital": "Bisa langsung download file dan buka link akses di halaman konfirmasi atau via email setelah pembayaran berhasil.",
+	"bu_pdp_access_session": "Pilih jadwal sesi saat pemesanan. Link Google Meet dikirim ke email kamu.",
+	"bu_pdp_access_service": "Setelah pembayaran selesai, seller akan langsung memproses pesananmu.",
+	"bu_pdp_service_eta": [
+		{
+			"declarations": ["input days", "local countPlural = days: plural"],
+			"selectors": ["countPlural"],
+			"match": {
+				"countPlural=one": "Estimasi selesai {days} hari kerja.",
+				"countPlural=other": "Estimasi selesai {days} hari kerja."
+			}
+		}
+	],
+	"bu_pdp_sec_about": "Tentang {name}",
+	"bu_pdp_seller_fallback": "Seller",
+	"bu_pdp_by": "oleh",
+	"bu_pdp_identity_verified": "Identitas terverifikasi",
+	"bu_pdp_view_other": "Lihat produk lain dari seller ini",
+	"bu_pdp_view_store": "Lihat toko",
+	"bu_pdp_sec_faq": "FAQ",
+	"bu_pdp_trust_title": "Transaksi lewat Karja",
+	"bu_pdp_trust_desc": "Pembayaran dan status pesanan tercatat lewat Karja.",
+	"bu_pdp_price_label": "Harga",
+	"bu_pdp_promo_tag": "Promo",
+	"bu_pdp_cta_free": "Ambil gratis",
+	"bu_pdp_cta_session": "Pilih jadwal — {price}",
+	"bu_pdp_cta_service": "Pesan layanan — {price}",
+	"bu_pdp_cta_digital": "Beli sekarang — {price}",
+	"bu_pdp_cta_m_session": "Pilih jadwal",
+	"bu_pdp_cta_m_service": "Pesan layanan",
+	"bu_pdp_cta_m_digital": "Beli sekarang",
+	"bu_pdp_wa_cta": "Tanya seller di WhatsApp",
+	"bu_pdp_wa_message": "Halo {name}, saya tertarik dengan \"{title}\" di Karja. Boleh tanya beberapa hal?",
+	"bu_pdp_bullet_paid": "Pembayaran diproses lewat Karja",
+	"bu_pdp_bullet_digital": "Bisa langsung download setelah pembayaran berhasil",
+	"bu_pdp_bullet_session": "Pilih jadwal sesi saat pemesanan",
+	"bu_pdp_sched_preview_title": "Jadwal tersedia",
+	"bu_pdp_sched_preview_hint": "Slot dihitung otomatis dari kalender seller dan booking yang sudah masuk.",
+	"bu_pdp_sched_preview_slots": [
+		{
+			"declarations": ["input count", "local countPlural = count: plural"],
+			"selectors": ["countPlural"],
+			"match": {
+				"countPlural=one": "{count} slot",
+				"countPlural=other": "{count} slot"
+			}
+		}
+	],
+
+	"bu_co_title_session": "Konfirmasi Pemesanan Sesi",
+	"bu_co_title_service": "Konfirmasi Pemesanan Layanan",
+	"bu_co_title_digital": "Konfirmasi Pembelian",
+	"bu_co_subtype_minutes": [
+		{
+			"declarations": ["input count", "local countPlural = count: plural"],
+			"selectors": ["countPlural"],
+			"match": {
+				"countPlural=one": "{count} menit",
+				"countPlural=other": "{count} menit"
+			}
+		}
+	],
+	"bu_co_sched_title": "Pilih Tanggal & Jam Sesi",
+	"bu_co_sched_tz": "WIB (Asia/Jakarta)",
+	"bu_co_sched_date_label": "1. Pilih Tanggal:",
+	"bu_co_sched_time_label": "2. Pilih Jam Mulai: {date}",
+	"bu_co_sched_empty": "Tidak ada slot waktu tersedia pada tanggal ini. Silakan pilih tanggal lain di atas.",
+	"bu_co_slot_time": "{time} WIB",
+	"bu_co_slot_minutes": [
+		{
+			"declarations": ["input count", "local countPlural = count: plural"],
+			"selectors": ["countPlural"],
+			"match": {
+				"countPlural=one": "{count}m",
+				"countPlural=other": "{count}m"
+			}
+		}
+	],
+	"bu_co_sched_selected": "{date} pukul {time}",
+	"bu_co_info_title": "Informasi Pembeli",
+	"bu_co_name_label": "Nama Lengkap",
+	"bu_co_name_ph": "Nama lengkap kamu...",
+	"bu_co_email_session": "Email untuk menerima konfirmasi sesi",
+	"bu_co_email_service": "Email untuk menerima informasi pesanan",
+	"bu_co_email_digital": "Email untuk menerima akses produk",
+	"bu_co_email_ph": "nama@email.com",
+	"bu_co_phone_label": "No. WhatsApp",
+	"bu_co_optional": "Opsional",
+	"bu_co_phone_ph": "08xxxxxxxxxx",
+	"bu_co_prep_title": "Pertanyaan Persiapan Sesi",
+	"bu_co_prep_ph": "Tuliskan jawaban singkat...",
+	"bu_co_topic_label": "Topik atau Pertanyaan Utama yang Ingin Dibahas",
+	"bu_co_topic_ph": "Contoh: Mau review portofolio UX Figma dan konsultasi transisi karir...",
+	"bu_co_brief_label": "Brief / Detail Kebutuhan Pengerjaan",
+	"bu_co_brief_ph": "Jelaskan kebutuhan, referensi, atau instruksi pengerjaan...",
+	"bu_co_notes_label": "Catatan Tambahan (Opsional)",
+	"bu_co_notes_ph": "Tulis catatan jika ada...",
+	"bu_co_sum_title": "Rincian Pembayaran",
+	"bu_co_sum_price": "Harga produk",
+	"bu_co_sum_discount": "Diskon promo",
+	"bu_co_sum_total": "Total bayar",
+	"bu_co_sum_karja_fee": "Biaya platform Karja (7%)",
+	"bu_co_sum_payment_fee": "Biaya pembayaran (2%)",
+	"bu_co_sum_fee_note": "Biaya platform Karja (7%) dan biaya pembayaran (2%) dipotong dari hasil penjual, bukan dari total yang kamu bayar.",
+	"bu_co_submit_processing": "Memproses Jadwal & Pembayaran...",
+	"bu_co_submit_free": "Ambil Gratis Sekarang",
+	"bu_co_submit_session": "Konfirmasi Jadwal & Bayar — {price}",
+	"bu_co_submit_paid": "Bayar Sekarang — {price}",
+	"bu_co_submit_note": "Pembayaran diproses lewat Karja.",
+	"bu_co_err_slot": "Silakan pilih tanggal dan jam sesi yang tersedia.",
+	"bu_co_pay_title": "Selesaikan Pembayaran",
+	"bu_co_pay_sim_note": "Simulasi pembayaran — tidak ada uang asli yang bergerak.",
+	"bu_co_pay_method": "Metode pembayaran",
+	"bu_co_pay_qris": "QRIS",
+	"bu_co_pay_va": "Virtual Account BCA",
+	"bu_co_pay_amount": "Total pembayaran",
+	"bu_co_pay_expires": "Berlaku sampai",
+	"bu_co_pay_qris_code": "Kode QRIS",
+	"bu_co_pay_qris_hint": "Pindai kode QRIS lewat e-wallet atau aplikasi banking yang mendukung QRIS.",
+	"bu_co_pay_va_number": "Nomor Virtual Account",
+	"bu_co_pay_va_hint": "Transfer ke nomor Virtual Account di atas sesuai nominal tertera.",
+	"bu_co_pay_holder": "Atas nama",
+	"bu_co_pay_confirm": "Saya sudah bayar",
+	"bu_co_pay_back": "Kembali ke formulir",
+	"bu_co_pay_expired": "Batas waktu pembayaran habis.",
+	"bu_co_pay_retry": "Buat ulang pembayaran",
+	"bu_co_pay_manual_note": "Pembayaran diverifikasi manual oleh tim Karja setelah kamu transfer.",
+	"bu_co_pay_reference": "Referensi",
+	"bu_co_pay_dev_sim": "Simulasi sudah dibayar",
+	"bu_co_pay_poll_note": "Status pembayaran diperbarui otomatis. Halaman ini lanjut sendiri setelah terverifikasi.",
+	"bu_co_pay_error": "Gagal memproses checkout. Coba lagi.",
+	"bu_co_pay_failed": "Pembayaran gagal atau dibatalkan.",
+	"bu_co_done_session": "Sesi Berhasil Terjadwal & Dibayar!",
+	"bu_co_done_free": "Akses Berhasil Dibuka!",
+	"bu_co_done_paid": "Pembayaran Berhasil!",
+	"bu_co_done_img_alt": "Pembelian Berhasil",
+	"bu_co_done_desc_session": "Jadwal konsultasi telah otomatis terdaftar di kalender. Link Google Meet siap digunakan saat sesi berlangsung.",
+	"bu_co_done_desc_service": "Seller akan segera mengerjakan pesananmu sesuai brief.",
+	"bu_co_done_desc_service_eta": [
+		{
+			"declarations": ["input days", "local countPlural = days: plural"],
+			"selectors": ["countPlural"],
+			"match": {
+				"countPlural=one": "dalam {days} hari kerja.",
+				"countPlural=other": "dalam {days} hari kerja."
+			}
+		}
+	],
+	"bu_co_done_desc_digital": "Akses materi digital langsung tersedia untuk kamu di bawah ini.",
+	"bu_co_meet_title": "Detail Pertemuan:",
+	"bu_co_meet_when": "Waktu Sesi:",
+	"bu_co_meet_dur": "Jam & Durasi:",
+	"bu_co_meet_dur_value": [
+		{
+			"declarations": ["input time", "input count", "local countPlural = count: plural"],
+			"selectors": ["countPlural"],
+			"match": {
+				"countPlural=one": "{time} ({count} menit)",
+				"countPlural=other": "{time} ({count} menit)"
+			}
+		}
+	],
+	"bu_co_meet_platform": "Platform:",
+	"bu_co_meet_link": "Link Pertemuan Google Meet:",
+	"bu_co_copy_meet": "Salin Link Google Meet",
+	"bu_co_open": "Buka",
+	"bu_co_email_sent": "Undangan kalender dan link ini juga telah dikirimkan ke email {email}.",
+	"bu_co_digital_title": "Akses Produk Digital:",
+	"bu_co_digital_fallback": "Materi_Praktis.pdf",
+	"bu_co_download": "Unduh",
+	"bu_co_open_access": "Buka Halaman Akses Pembeli",
+
+	"bu_acc_badge": "Akses Pesanan Pembeli",
+	"bu_acc_footer_prefix": "Didukung oleh",
+	"bu_acc_footer_tagline": "— Dari nol, sampai ada.",
+	"bu_acc_footer_about": "Tentang Karja",
+	"bu_acc_nf_title": "Akses Pesanan Tidak Ditemukan",
+	"bu_acc_nf_desc": "Tautan akses pesanan ini tidak valid atau pesanan belum terdaftar di sistem.",
+	"bu_acc_nf_home": "Ke Halaman Utama Karja",
+	"bu_acc_paid": "Sudah dibayar",
+	"bu_acc_from_to": "Dari {seller} • Dipesan untuk {buyer}",
+	"bu_acc_seller_fallback": "Seller Karja",
+	"bu_acc_pay_label": "Status pembayaran",
+	"bu_acc_pay_pending": "Menunggu pembayaran",
+	"bu_acc_pay_failed": "Pembayaran gagal",
+	"bu_acc_pay_cancelled": "Dibatalkan",
+	"bu_acc_fulfillment_label": "Status pesanan",
+	"bu_acc_fulfillment_unpaid": "Belum dibayar",
+	"bu_acc_fulfillment_need_schedule": "Perlu dijadwalkan",
+	"bu_acc_fulfillment_scheduled": "Sudah dijadwalkan",
+	"bu_acc_fulfillment_waiting_brief": "Menunggu brief",
+	"bu_acc_fulfillment_access_granted": "Akses diberikan",
+	"bu_acc_fulfillment_done": "Selesai",
+	"bu_acc_fulfillment_cancelled": "Dibatalkan",
+	"bu_acc_amount_label": "Jumlah",
+	"bu_acc_buyer_label": "Pembeli",
+	"bu_acc_delivery_title": "Akses & instruksi",
+	"bu_acc_delivery_pending": "Seller belum menambahkan detail akses. Halaman ini akan diperbarui otomatis.",
+	"bu_acc_digital_title": "Akses file digital",
+	"bu_acc_digital_fallback": "Materi_Praktis.pdf",
+	"bu_acc_digital_size_fallback": "Siap download",
+	"bu_acc_download_file": "Download file",
+	"bu_acc_how_access": "Cara akses:",
+	"bu_acc_cancel_title": "Sesi dibatalkan",
+	"bu_acc_cancel_desc": "Sesi ini dibatalkan oleh {party}.",
+	"bu_acc_cancel_reason": "Alasan: \"{reason}\".",
+	"bu_acc_party_seller": "seller",
+	"bu_acc_party_buyer": "pembeli",
+	"bu_acc_sched_title": "Jadwal sesi",
+	"bu_acc_date": "Tanggal",
+	"bu_acc_date_fallback": "Sesuai jadwal",
+	"bu_acc_time": "Waktu",
+	"bu_acc_time_fallback": "19.30–19.50 WIB",
+	"bu_acc_tz_suffix": "{time} (Asia/Jakarta)",
+	"bu_acc_duration": "Durasi",
+	"bu_acc_duration_value": [
+		{
+			"declarations": ["input count", "local countPlural = count: plural"],
+			"selectors": ["countPlural"],
+			"match": {
+				"countPlural=one": "{count} menit",
+				"countPlural=other": "{count} menit"
+			}
+		}
+	],
+	"bu_acc_platform": "Platform",
+	"bu_acc_meet_link": "Link Google Meet:",
+	"bu_acc_copy_link": "Copy link",
+	"bu_acc_open_meet": "Buka Google Meet",
+	"bu_acc_meet_pending": "Link Google Meet bakal diupdate seller mendekati jadwal sesi.",
+	"bu_acc_prep_title": "Jawaban persiapan sesimu",
+	"bu_acc_resched_title": "Riwayat jadwal ulang",
+	"bu_acc_resched_entry": "{from} → {to}",
+	"bu_acc_resched_by": "Dijadwalkan ulang oleh {party}",
+	"bu_acc_service_status": "Status layanan",
+	"bu_acc_service_delivered": "Hasil sudah dikirim",
+	"bu_acc_service_progress": "Sedang diproses",
+	"bu_acc_service_result": "Hasil dari seller:",
+	"bu_acc_download": "Download",
+	"bu_acc_open_link": "Buka link",
+	"bu_acc_seller_note": "Catatan dari seller:",
+	"bu_acc_service_pending": "Seller lagi ngerjain pesananmu sesuai brief. Hasilnya bakal tampil di halaman ini.",
+	"bu_acc_review_title": "Ulasanmu",
+	"bu_acc_review_saved": "Ulasanmu udah tersimpan",
+	"bu_acc_review_fallback": "Puas sama produknya!",
+	"bu_acc_review_reply": "Balasan dari {name}:",
+	"bu_acc_review_free_note": "Produk gratis nggak menyediakan opsi ulasan.",
+	"bu_acc_review_pending_note": "Ulasan bisa diberikan setelah pesanan selesai.",
+	"bu_acc_review_q": "Gimana pengalamanmu dengan {title}?",
+	"bu_acc_review_stars": [
+		{
+			"declarations": ["input count", "local countPlural = count: plural"],
+			"selectors": ["countPlural"],
+			"match": {
+				"countPlural=one": "{count} / 5 bintang",
+				"countPlural=other": "{count} / 5 bintang"
+			}
+		}
+	],
+	"bu_acc_review_label": "Tulis ulasanmu (opsional)",
+	"bu_acc_review_ph": "Tulis ulasanmu di sini...",
+	"bu_acc_review_submit": "Kirim ulasan",
+	"bu_acc_star_aria": "Beri {count} bintang",
+	"bu_acc_visit_store": "Lihat toko seller"
+}

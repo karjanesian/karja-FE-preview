@@ -1,0 +1,15 @@
+export type AdminSubRoute =
+	| 'login'
+	| 'overview'
+	| 'sellers'
+	| 'buyers'
+	| 'verifications'
+	| 'products'
+	| 'orders'
+	| 'transactions'
+	| 'payouts'
+	| 'cases'
+	| 'finance'
+	| 'blog'
+	| 'storage'
+	| 'settings';

@@ -1,0 +1,51 @@
+{
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"bl_eyebrow": "Karja Blog",
+	"bl_hero_title": "Small things can become something.",
+	"bl_hero_subtitle": "Ideas, guides, and stories for you who want to start from what you already know.",
+	"bl_featured_eyebrow": "Start with what you know",
+	"bl_read_article": "Read article",
+	"bl_new_title": "New on Karja",
+	"bl_new_subtitle": "Ideas, guides, and stories to help you turn what you know into something sellable.",
+	"bl_cat_semua": "All",
+	"bl_cat_mulai": "Getting Started",
+	"bl_cat_digital": "Digital Products",
+	"bl_cat_sesi": "Sessions",
+	"bl_cat_layanan": "Services",
+	"bl_cat_jual": "Sell & Share",
+	"bl_cat_cerita": "People Stories",
+	"bl_empty_title": "No articles in this category yet.",
+	"bl_empty_subtitle": "Try another category.",
+	"bl_empty_back": "Back to All Articles",
+	"bl_story_eyebrow": "People Stories",
+	"bl_story_title": "Kimmy originally just made a checklist for her own work",
+	"bl_story_desc": "From one checklist, Kimmy realized there were three things she could actually offer: a file, 30 minutes of her time, and direct help.",
+	"bl_story_cta": "Read Kimmy's story",
+	"bl_starting_title": "For those just starting",
+	"bl_starting_subtitle": "If you already have one thing in mind but are unsure about the next step, start here.",
+	"bl_cta_title": "Have something you often help people with?",
+	"bl_cta_subtitle": "Maybe that could be your first product.",
+	"bl_cta_button": "Create your first product",
+	"bl_image_fallback": "Karja Blog",
+	"bl_story_image_fallback": "Karja Stories",
+	"bl_guide_image_fallback": "Karja Guide",
+	"bl_seo_title": "Karja Blog — Small Things That Can Become Something",
+	"bl_seo_description": "Ideas, guides, and stories for you who want to turn skills, experience, files, or time into something sellable.",
+	"bl_back": "Back to Blog",
+	"bl_notfound_title": "Article not found",
+	"bl_notfound_desc": "The link may have been moved, or the article hasn't been published yet.",
+	"bl_related_title": "Keep reading",
+	"bl_related_subtitle": "Other articles that might fit what you're wondering about right now.",
+	"bl_callout_eyebrow": "Start Now",
+	"bl_callout_default_cta": "Create your first product →",
+	"bl_reading_time": [
+		{
+			"declarations": ["input count", "local countPlural = count: plural"],
+			"selectors": ["countPlural"],
+			"match": {
+				"countPlural=one": "{count} min read",
+				"countPlural=other": "{count} min read"
+			}
+		}
+	]
+}

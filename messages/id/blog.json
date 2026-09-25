@@ -1,0 +1,51 @@
+{
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+	"bl_eyebrow": "Blog Karja",
+	"bl_hero_title": "Hal kecil yang bisa jadi sesuatu.",
+	"bl_hero_subtitle": "Ide, panduan, dan cerita buat kamu yang ingin mulai dari hal yang sudah kamu tahu.",
+	"bl_featured_eyebrow": "Mulai dari yang kamu tahu",
+	"bl_read_article": "Baca artikel",
+	"bl_new_title": "Baru di Karja",
+	"bl_new_subtitle": "Ide, panduan, dan cerita buat bantu kamu mengubah hal yang kamu tahu jadi sesuatu yang bisa dijual.",
+	"bl_cat_semua": "Semua",
+	"bl_cat_mulai": "Mulai",
+	"bl_cat_digital": "Produk Digital",
+	"bl_cat_sesi": "Sesi",
+	"bl_cat_layanan": "Layanan",
+	"bl_cat_jual": "Jual & Bagikan",
+	"bl_cat_cerita": "Cerita Orang",
+	"bl_empty_title": "Belum ada artikel di kategori ini.",
+	"bl_empty_subtitle": "Coba kategori lain, ya.",
+	"bl_empty_back": "Kembali ke Semua Artikel",
+	"bl_story_eyebrow": "Cerita Orang",
+	"bl_story_title": "Kimmy awalnya cuma bikin checklist buat kerjaannya sendiri",
+	"bl_story_desc": "Dari satu checklist, Kimmy sadar ada tiga hal yang sebenarnya bisa dia tawarkan: file, waktu 30 menit, dan bantuan langsung.",
+	"bl_story_cta": "Baca cerita Kimmy",
+	"bl_starting_title": "Buat yang lagi mulai",
+	"bl_starting_subtitle": "Kalau kamu sudah punya satu hal di kepala tapi masih bingung langkah berikutnya, mulai dari sini.",
+	"bl_cta_title": "Punya satu hal yang sering kamu bantu?",
+	"bl_cta_subtitle": "Mungkin itu bisa jadi produk pertamamu.",
+	"bl_cta_button": "Buat produk pertama",
+	"bl_image_fallback": "Blog Karja",
+	"bl_story_image_fallback": "Cerita Karja",
+	"bl_guide_image_fallback": "Panduan Karja",
+	"bl_seo_title": "Blog Karja — Hal Kecil yang Bisa Jadi Sesuatu",
+	"bl_seo_description": "Ide, panduan, dan cerita buat kamu yang ingin mengubah skill, pengalaman, file, atau waktu jadi sesuatu yang bisa dijual.",
+	"bl_back": "Kembali ke Blog",
+	"bl_notfound_title": "Artikel tidak ditemukan",
+	"bl_notfound_desc": "Mungkin link sudah dipindahkan atau artikel belum dipublikasikan.",
+	"bl_related_title": "Lanjut baca",
+	"bl_related_subtitle": "Artikel lain yang mungkin pas sama pertanyaanmu sekarang.",
+	"bl_callout_eyebrow": "Mulai dari Sekarang",
+	"bl_callout_default_cta": "Buat produk pertama →",
+	"bl_reading_time": [
+		{
+			"declarations": ["input count", "local countPlural = count: plural"],
+			"selectors": ["countPlural"],
+			"match": {
+				"countPlural=one": "{count} menit baca",
+				"countPlural=other": "{count} menit baca"
+			}
+		}
+	]
+}

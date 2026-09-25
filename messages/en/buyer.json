@@ -1,0 +1,329 @@
+{
+	"$schema": "https://inlang.com/schema/inlang-message-format",
+
+	"bu_sh_close": "Close",
+	"bu_sh_free": "Free",
+	"bu_sh_google_meet": "Google Meet",
+	"bu_sh_download_started": "Download started.",
+
+	"bu_pdp_back_to_store": "Back to store",
+	"bu_pdp_breadcrumb": "Store",
+	"bu_pdp_share": "Share",
+	"bu_pdp_share_copied": "Link copied",
+	"bu_pdp_share_title": "Copy product link",
+	"bu_pdp_image_alt": "{title} - Image {index}",
+	"bu_pdp_category_fallback": "Karja Work",
+	"bu_pdp_prev_image": "Previous image",
+	"bu_pdp_next_image": "Next image",
+	"bu_pdp_expand_image": "Zoom image",
+	"bu_pdp_thumbnail_alt": "Thumbnail {index}",
+	"bu_pdp_close_lightbox": "Close image",
+	"bu_pdp_sec_target": "Who it's for",
+	"bu_pdp_sec_problem": "What it solves",
+	"bu_pdp_sec_deliverables": "What you get",
+	"bu_pdp_spec_filename": "File name",
+	"bu_pdp_spec_filename_fallback": "Digital material file",
+	"bu_pdp_spec_filesize": "Size & format",
+	"bu_pdp_spec_filesize_fallback": "PDF / ready-to-use file",
+	"bu_pdp_spec_duration": "Duration",
+	"bu_pdp_minutes": [
+		{
+			"declarations": ["input count", "local countPlural = count: plural"],
+			"selectors": ["countPlural"],
+			"match": {
+				"countPlural=one": "{count} minute",
+				"countPlural=other": "{count} minutes"
+			}
+		}
+	],
+	"bu_pdp_spec_platform": "Platform",
+	"bu_pdp_spec_timeline": "Estimated completion",
+	"bu_pdp_business_days": [
+		{
+			"declarations": ["input count", "local countPlural = count: plural"],
+			"selectors": ["countPlural"],
+			"match": {
+				"countPlural=one": "{count} business day",
+				"countPlural=other": "{count} business days"
+			}
+		}
+	],
+	"bu_pdp_dash": "-",
+	"bu_pdp_spec_revisions": "Revisions",
+	"bu_pdp_revisions_value": [
+		{
+			"declarations": ["input count", "local countPlural = count: plural"],
+			"selectors": ["countPlural"],
+			"match": {
+				"countPlural=one": "{count} revision",
+				"countPlural=other": "{count} revisions"
+			}
+		}
+	],
+	"bu_pdp_sec_how": "How it works",
+	"bu_pdp_sec_access": "How to access",
+	"bu_pdp_access_digital": "You can download the file and open the access link on the confirmation page or via email right after your payment succeeds.",
+	"bu_pdp_access_session": "Pick your session slot at checkout. The Google Meet link is sent to your email.",
+	"bu_pdp_access_service": "Once payment is complete, the seller will start processing your order right away.",
+	"bu_pdp_service_eta": [
+		{
+			"declarations": ["input days", "local countPlural = days: plural"],
+			"selectors": ["countPlural"],
+			"match": {
+				"countPlural=one": "Estimated completion: {days} business day.",
+				"countPlural=other": "Estimated completion: {days} business days."
+			}
+		}
+	],
+	"bu_pdp_sec_about": "About {name}",
+	"bu_pdp_seller_fallback": "Seller",
+	"bu_pdp_by": "by",
+	"bu_pdp_identity_verified": "Identity verified",
+	"bu_pdp_view_other": "See other products from this seller",
+	"bu_pdp_view_store": "View store",
+	"bu_pdp_sec_faq": "FAQ",
+	"bu_pdp_trust_title": "Transactions go through Karja",
+	"bu_pdp_trust_desc": "Payment and order status are tracked through Karja.",
+	"bu_pdp_price_label": "Price",
+	"bu_pdp_promo_tag": "Promo",
+	"bu_pdp_cta_free": "Claim for free",
+	"bu_pdp_cta_session": "Pick a schedule — {price}",
+	"bu_pdp_cta_service": "Order this service — {price}",
+	"bu_pdp_cta_digital": "Buy now — {price}",
+	"bu_pdp_cta_m_session": "Pick a schedule",
+	"bu_pdp_cta_m_service": "Order service",
+	"bu_pdp_cta_m_digital": "Buy now",
+	"bu_pdp_wa_cta": "Ask the seller on WhatsApp",
+	"bu_pdp_wa_message": "Hi {name}, I'm interested in \"{title}\" on Karja. Can I ask a few questions?",
+	"bu_pdp_bullet_paid": "Payments are processed through Karja",
+	"bu_pdp_bullet_digital": "Instant download right after payment succeeds",
+	"bu_pdp_bullet_session": "Pick your session schedule at checkout",
+	"bu_pdp_sched_preview_title": "Available schedule",
+	"bu_pdp_sched_preview_hint": "Slots are calculated automatically from the seller's calendar and existing bookings.",
+	"bu_pdp_sched_preview_slots": [
+		{
+			"declarations": ["input count", "local countPlural = count: plural"],
+			"selectors": ["countPlural"],
+			"match": {
+				"countPlural=one": "{count} slot",
+				"countPlural=other": "{count} slots"
+			}
+		}
+	],
+
+	"bu_co_title_session": "Confirm Session Booking",
+	"bu_co_title_service": "Confirm Service Order",
+	"bu_co_title_digital": "Confirm Purchase",
+	"bu_co_subtype_minutes": [
+		{
+			"declarations": ["input count", "local countPlural = count: plural"],
+			"selectors": ["countPlural"],
+			"match": {
+				"countPlural=one": "{count} min",
+				"countPlural=other": "{count} min"
+			}
+		}
+	],
+	"bu_co_sched_title": "Pick Date & Session Time",
+	"bu_co_sched_tz": "WIB (Asia/Jakarta)",
+	"bu_co_sched_date_label": "1. Pick a date:",
+	"bu_co_sched_time_label": "2. Pick a start time: {date}",
+	"bu_co_sched_empty": "No time slots available on this date. Please pick another date above.",
+	"bu_co_slot_time": "{time} WIB",
+	"bu_co_slot_minutes": [
+		{
+			"declarations": ["input count", "local countPlural = count: plural"],
+			"selectors": ["countPlural"],
+			"match": {
+				"countPlural=one": "{count}m",
+				"countPlural=other": "{count}m"
+			}
+		}
+	],
+	"bu_co_sched_selected": "{date} at {time}",
+	"bu_co_info_title": "Buyer Information",
+	"bu_co_name_label": "Full Name",
+	"bu_co_name_ph": "Your full name...",
+	"bu_co_email_session": "Email to receive the session confirmation",
+	"bu_co_email_service": "Email to receive order updates",
+	"bu_co_email_digital": "Email to receive product access",
+	"bu_co_email_ph": "you@email.com",
+	"bu_co_phone_label": "WhatsApp Number",
+	"bu_co_optional": "Optional",
+	"bu_co_phone_ph": "08xxxxxxxxxx",
+	"bu_co_prep_title": "Session Prep Questions",
+	"bu_co_prep_ph": "Write a short answer...",
+	"bu_co_topic_label": "Main Topic or Question You'd Like to Cover",
+	"bu_co_topic_ph": "e.g. Review my UX Figma portfolio and career transition advice...",
+	"bu_co_brief_label": "Brief / Work Requirements",
+	"bu_co_brief_ph": "Describe your needs, references, or instructions...",
+	"bu_co_notes_label": "Additional Notes (Optional)",
+	"bu_co_notes_ph": "Add a note if needed...",
+	"bu_co_sum_title": "Payment Breakdown",
+	"bu_co_sum_price": "Product price",
+	"bu_co_sum_discount": "Promo discount",
+	"bu_co_sum_total": "Total",
+	"bu_co_sum_karja_fee": "Karja platform fee (7%)",
+	"bu_co_sum_payment_fee": "Payment fee (2%)",
+	"bu_co_sum_fee_note": "Karja's platform fee (7%) and payment fee (2%) are deducted from the seller's payout, not from your total.",
+	"bu_co_submit_processing": "Processing schedule & payment...",
+	"bu_co_submit_free": "Claim for Free Now",
+	"bu_co_submit_session": "Confirm Schedule & Pay — {price}",
+	"bu_co_submit_paid": "Pay Now — {price}",
+	"bu_co_submit_note": "Payment is processed through Karja.",
+	"bu_co_err_slot": "Please pick an available session date and time.",
+	"bu_co_pay_title": "Complete Your Payment",
+	"bu_co_pay_sim_note": "Payment simulation — no real money moves.",
+	"bu_co_pay_method": "Payment method",
+	"bu_co_pay_qris": "QRIS",
+	"bu_co_pay_va": "BCA Virtual Account",
+	"bu_co_pay_amount": "Total payment",
+	"bu_co_pay_expires": "Expires in",
+	"bu_co_pay_qris_code": "QRIS code",
+	"bu_co_pay_qris_hint": "Scan the QRIS code with any QRIS-supported e-wallet or banking app.",
+	"bu_co_pay_va_number": "Virtual Account number",
+	"bu_co_pay_va_hint": "Transfer to the Virtual Account number above for the exact amount.",
+	"bu_co_pay_holder": "Account holder",
+	"bu_co_pay_confirm": "I've paid",
+	"bu_co_pay_back": "Back to form",
+	"bu_co_pay_expired": "The payment window has expired.",
+	"bu_co_pay_retry": "Restart payment",
+	"bu_co_pay_manual_note": "Payment is verified manually by the Karja team after you transfer.",
+	"bu_co_pay_reference": "Reference",
+	"bu_co_pay_dev_sim": "Simulate paid",
+	"bu_co_pay_poll_note": "Payment status updates automatically. This page continues on its own once verified.",
+	"bu_co_pay_error": "Failed to process checkout. Please try again.",
+	"bu_co_pay_failed": "Payment failed or was cancelled.",
+	"bu_co_done_session": "Session Scheduled & Paid!",
+	"bu_co_done_free": "Access Granted!",
+	"bu_co_done_paid": "Payment Successful!",
+	"bu_co_done_img_alt": "Purchase successful",
+	"bu_co_done_desc_session": "Your consultation is automatically added to the calendar. The Google Meet link is ready to use when your session starts.",
+	"bu_co_done_desc_service": "The seller will start working on your order per your brief.",
+	"bu_co_done_desc_service_eta": [
+		{
+			"declarations": ["input days", "local countPlural = days: plural"],
+			"selectors": ["countPlural"],
+			"match": {
+				"countPlural=one": "within {days} business day.",
+				"countPlural=other": "within {days} business days."
+			}
+		}
+	],
+	"bu_co_done_desc_digital": "Your digital access is available right below.",
+	"bu_co_meet_title": "Meeting Details:",
+	"bu_co_meet_when": "Session Time:",
+	"bu_co_meet_dur": "Time & Duration:",
+	"bu_co_meet_dur_value": [
+		{
+			"declarations": ["input time", "input count", "local countPlural = count: plural"],
+			"selectors": ["countPlural"],
+			"match": {
+				"countPlural=one": "{time} ({count} minute)",
+				"countPlural=other": "{time} ({count} minutes)"
+			}
+		}
+	],
+	"bu_co_meet_platform": "Platform:",
+	"bu_co_meet_link": "Google Meet Link:",
+	"bu_co_copy_meet": "Copy Google Meet link",
+	"bu_co_open": "Open",
+	"bu_co_email_sent": "The calendar invite and this link were also sent to {email}.",
+	"bu_co_digital_title": "Digital Product Access:",
+	"bu_co_digital_fallback": "Materi_Praktis.pdf",
+	"bu_co_download": "Download",
+	"bu_co_open_access": "Open Buyer Access Page",
+
+	"bu_acc_badge": "Buyer Order Access",
+	"bu_acc_footer_prefix": "Powered by",
+	"bu_acc_footer_tagline": "— Dari nol, sampai ada.",
+	"bu_acc_footer_about": "About Karja",
+	"bu_acc_nf_title": "Order Access Not Found",
+	"bu_acc_nf_desc": "This order access link is invalid or the order hasn't been registered in the system yet.",
+	"bu_acc_nf_home": "Go to Karja Home",
+	"bu_acc_paid": "Paid",
+	"bu_acc_from_to": "From {seller} • Ordered for {buyer}",
+	"bu_acc_seller_fallback": "Karja Seller",
+	"bu_acc_pay_label": "Payment status",
+	"bu_acc_pay_pending": "Awaiting payment",
+	"bu_acc_pay_failed": "Payment failed",
+	"bu_acc_pay_cancelled": "Cancelled",
+	"bu_acc_fulfillment_label": "Order status",
+	"bu_acc_fulfillment_unpaid": "Unpaid",
+	"bu_acc_fulfillment_need_schedule": "Needs scheduling",
+	"bu_acc_fulfillment_scheduled": "Scheduled",
+	"bu_acc_fulfillment_waiting_brief": "Awaiting brief",
+	"bu_acc_fulfillment_access_granted": "Access granted",
+	"bu_acc_fulfillment_done": "Completed",
+	"bu_acc_fulfillment_cancelled": "Cancelled",
+	"bu_acc_amount_label": "Amount",
+	"bu_acc_buyer_label": "Buyer",
+	"bu_acc_delivery_title": "Access & instructions",
+	"bu_acc_delivery_pending": "The seller hasn't added access details yet. This page will update automatically.",
+	"bu_acc_digital_title": "Digital file access",
+	"bu_acc_digital_fallback": "Materi_Praktis.pdf",
+	"bu_acc_digital_size_fallback": "Ready to download",
+	"bu_acc_download_file": "Download file",
+	"bu_acc_how_access": "How to access:",
+	"bu_acc_cancel_title": "Session cancelled",
+	"bu_acc_cancel_desc": "This session was cancelled by {party}.",
+	"bu_acc_cancel_reason": "Reason: \"{reason}\".",
+	"bu_acc_party_seller": "the seller",
+	"bu_acc_party_buyer": "the buyer",
+	"bu_acc_sched_title": "Session schedule",
+	"bu_acc_date": "Date",
+	"bu_acc_date_fallback": "As scheduled",
+	"bu_acc_time": "Time",
+	"bu_acc_time_fallback": "19.30–19.50 WIB",
+	"bu_acc_tz_suffix": "{time} (Asia/Jakarta)",
+	"bu_acc_duration": "Duration",
+	"bu_acc_duration_value": [
+		{
+			"declarations": ["input count", "local countPlural = count: plural"],
+			"selectors": ["countPlural"],
+			"match": {
+				"countPlural=one": "{count} minute",
+				"countPlural=other": "{count} minutes"
+			}
+		}
+	],
+	"bu_acc_platform": "Platform",
+	"bu_acc_meet_link": "Google Meet link:",
+	"bu_acc_copy_link": "Copy link",
+	"bu_acc_open_meet": "Open Google Meet",
+	"bu_acc_meet_pending": "The seller will share the Google Meet link closer to the session time.",
+	"bu_acc_prep_title": "Your session prep answers",
+	"bu_acc_resched_title": "Reschedule history",
+	"bu_acc_resched_entry": "{from} → {to}",
+	"bu_acc_resched_by": "Rescheduled by {party}",
+	"bu_acc_service_status": "Service status",
+	"bu_acc_service_delivered": "Results delivered",
+	"bu_acc_service_progress": "In progress",
+	"bu_acc_service_result": "Delivered by the seller:",
+	"bu_acc_download": "Download",
+	"bu_acc_open_link": "Open link",
+	"bu_acc_seller_note": "Note from the seller:",
+	"bu_acc_service_pending": "The seller is working on your order per the brief. The result will appear on this page.",
+	"bu_acc_review_title": "Your Review",
+	"bu_acc_review_saved": "Your review is saved",
+	"bu_acc_review_fallback": "Loved the product!",
+	"bu_acc_review_reply": "Reply from {name}:",
+	"bu_acc_review_free_note": "Free products don't offer a review option.",
+	"bu_acc_review_pending_note": "You can leave a review once the order is complete.",
+	"bu_acc_review_q": "How was your experience with {title}?",
+	"bu_acc_review_stars": [
+		{
+			"declarations": ["input count", "local countPlural = count: plural"],
+			"selectors": ["countPlural"],
+			"match": {
+				"countPlural=one": "{count} / 5 stars",
+				"countPlural=other": "{count} / 5 stars"
+			}
+		}
+	],
+	"bu_acc_review_label": "Write your review (optional)",
+	"bu_acc_review_ph": "Write your review here...",
+	"bu_acc_review_submit": "Send review",
+	"bu_acc_star_aria": "Rate {count} stars",
+	"bu_acc_visit_store": "Visit the seller's store"
+}

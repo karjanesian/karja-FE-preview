@@ -1,0 +1,92 @@
+<svg width="640" height="400" viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg" font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif">
+  <!-- Card Background -->
+  <defs>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E2EEF8" />
+      <stop offset="50%" stop-color="#D5E6F5" />
+      <stop offset="100%" stop-color="#C2DCF2" />
+    </linearGradient>
+    <linearGradient id="photoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#1D4ED8" />
+    </linearGradient>
+    <pattern id="cardPattern" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 0 10 L 20 10 M 10 0 L 10 20" fill="none" stroke="#B8D5ED" stroke-width="0.5" opacity="0.4"/>
+    </pattern>
+  </defs>
+
+  <!-- Outer Card Frame -->
+  <rect x="10" y="10" width="620" height="380" rx="20" fill="url(#cardGrad)" stroke="#8EB8DB" stroke-width="3"/>
+  <rect x="14" y="14" width="612" height="372" rx="16" fill="url(#cardPattern)"/>
+
+  <!-- Top Header -->
+  <text x="320" y="44" font-size="16" font-weight="800" fill="#1E3A5F" text-anchor="middle" letter-spacing="2">REPUBLIK INDONESIA [DEMO]</text>
+  <text x="320" y="64" font-size="14" font-weight="700" fill="#2D4A6F" text-anchor="middle" letter-spacing="1.5">PROVINSI DKI JAKARTA - JAKARTA SELATAN</text>
+
+  <!-- NIK Header -->
+  <text x="40" y="98" font-size="18" font-weight="800" fill="#0F243E" letter-spacing="1">NIK</text>
+  <text x="180" y="98" font-size="18" font-weight="800" fill="#0F243E" letter-spacing="2">: 3174051203900002</text>
+
+  <!-- Detail Lines -->
+  <g font-size="11" font-weight="700" fill="#1E3A5F">
+    <text x="40" y="128">Nama</text>
+    <text x="180" y="128">: REZA FIRMANSYAH</text>
+
+    <text x="40" y="150">Tempat/Tgl Lahir</text>
+    <text x="180" y="150">: JAKARTA, 12-03-1990</text>
+
+    <text x="40" y="172">Jenis Kelamin</text>
+    <text x="180" y="172">: LAKI-LAKI</text>
+    <text x="300" y="172">Gol. Darah : O</text>
+
+    <text x="40" y="194">Alamat</text>
+    <text x="180" y="194">: JL. TEBET BARAT DALAM NO. 12</text>
+
+    <text x="60" y="214">RT/RW</text>
+    <text x="180" y="214">: 005/003</text>
+
+    <text x="60" y="234">Kel/Desa</text>
+    <text x="180" y="234">: TEBET BARAT</text>
+
+    <text x="60" y="254">Kecamatan</text>
+    <text x="180" y="254">: TEBET</text>
+
+    <text x="40" y="276">Agama</text>
+    <text x="180" y="276">: ISLAM</text>
+
+    <text x="40" y="298">Status Perkawinan</text>
+    <text x="180" y="298">: BELUM KAWIN</text>
+
+    <text x="40" y="320">Pekerjaan</text>
+    <text x="180" y="320">: KARYAWAN SWASTA</text>
+
+    <text x="40" y="342">Kewarganegaraan</text>
+    <text x="180" y="342">: WNI</text>
+
+    <text x="40" y="364">Berlaku Hingga</text>
+    <text x="180" y="364">: SEUMUR HIDUP</text>
+  </g>
+
+  <!-- Photo Box -->
+  <g transform="translate(460, 110)">
+    <rect x="0" y="0" width="135" height="175" rx="8" fill="url(#photoGrad)" stroke="#1E40AF" stroke-width="2"/>
+    <!-- Silhouette Avatar -->
+    <circle cx="67.5" cy="65" r="32" fill="#E2E8F0" />
+    <path d="M 25 155 C 25 105, 110 105, 110 155 Z" fill="#E2E8F0" />
+    <!-- Blue BG stamp -->
+    <rect x="8" y="8" width="119" height="159" rx="4" fill="none" stroke="#FFFFFF" stroke-opacity="0.3" stroke-width="1"/>
+    <text x="67.5" y="165" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="middle" opacity="0.8">FOTO RESMI MOCK</text>
+  </g>
+
+  <!-- Signature Mock -->
+  <g transform="translate(470, 305)">
+    <path d="M 10 30 Q 30 5, 50 25 T 90 20 T 115 35" fill="none" stroke="#0F243E" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="60" y="55" font-size="10" font-weight="700" fill="#2D4A6F" text-anchor="middle">JAKARTA SELATAN</text>
+  </g>
+
+  <!-- Prominent Watermark -->
+  <g transform="translate(320, 200) rotate(-22)">
+    <rect x="-240" y="-28" width="480" height="56" rx="10" fill="#EF4444" fill-opacity="0.18" stroke="#DC2626" stroke-width="2" stroke-dasharray="6,4"/>
+    <text x="0" y="10" font-size="28" font-weight="900" fill="#B91C1C" text-anchor="middle" letter-spacing="4" opacity="0.85">DATA FIKTIF / DEMO ONLY</text>
+  </g>
+</svg>
